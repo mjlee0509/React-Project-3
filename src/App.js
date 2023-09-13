@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="root-wrap">
       <BrowserRouter>
       <Header /> {/* Routing의 영향을 받지 않고 고정시키고 싶은 컴포넌트는 Routes 태그 밖으로 */}
       <Routes>
