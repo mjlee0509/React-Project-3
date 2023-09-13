@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const img_base_url = "https://image.tmdb.org/t/p/w1280";
+export const img_base_url = "https://image.tmdb.org/t/p/w1280";
 
 export default function Movie(props) {
 
