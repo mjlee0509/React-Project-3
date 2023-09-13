@@ -47,7 +47,7 @@
 
 /* movie 페이지 스타일링 */
 
-.app-container {
+.movies-container {
     display: flex;
     flex-wrap: wrap; /*전체 데이터의 길이가 너무 길 떄 다음 줄로 내려주기*/
     justify-content: center; 

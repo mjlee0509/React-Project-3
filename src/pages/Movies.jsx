@@ -5,7 +5,7 @@ import Movie from '../components/Movie'
 export default function Movies() {
     return (
         <div>
-            <div className="app-container">
+            <div className="movies-container">
                 {
                     dummy.results.map((item) => {
                         return (
